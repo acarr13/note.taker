@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.note-save {
+  display: none;
+}
+
+.icons i {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.note-textarea, .note-title {
+  width: 100%;
+  color: #000000;
+  outline: none;
+  border: none;
+}
+
+.note-textarea {
+  height: calc(100% - 63px);
+  resize: none;
+  padding-top: 15px;
+}
+
+.note-title {
+  margin-top: 13px;
+  height: 50px;
+  font-size: 3rem;
+}
+
+.note-title:read-only, .note-textarea:read-only {
+  color: #6b6363;
+}
+
+.list-container .card {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  height: calc(100vh - 70px);
+  border-bottom: none;
+}
+
+.list-container {
+  padding-left: 0;
+}
+
+.list-container .list-group,
+.list-container .list-group-item:first-child,
+.list-container .card {
+  border-top-right-radius: 0;
+  border-top: none;
+  border-top-left-radius: 0;
+}
+
+.list-container i {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.list-container .list-group-item {
+  padding: 20px;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+}
